@@ -1,6 +1,6 @@
 import { useGLTF, useAnimations } from "@react-three/drei";
 import { useEffect } from "react";
-import islandScene from "../assets/3d/newisland.glb";
+import islandScene from "../assets/3d/island.glb";
 
 const NewIsland = (props) => {
   const { scene, animations } = useGLTF(islandScene);
